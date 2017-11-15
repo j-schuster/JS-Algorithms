@@ -7,16 +7,14 @@ In other words, return the symmetric difference of the two arrays.
 function diffArray(arr1, arr2) {
   var newArr = [];
   // Same, same; but different.
-  function check (one, two) {
-    
+  function check (one, two) {   
     for (var i = 0; i < one.length; i ++){
       if(two.indexOf(one[i]) === -1){
         newArr.push(one[i]);
       }   
     }
   }
-  
-  
+    
   check(arr1, arr2);
   check(arr2, arr1);
   

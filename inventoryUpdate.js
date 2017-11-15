@@ -16,7 +16,6 @@ function updateInventory(arr1, arr2) {
         return a;
     }, {});
     
- 
     return Object.keys(obj).sort().map(function(name){
       
       return [obj[name], name];

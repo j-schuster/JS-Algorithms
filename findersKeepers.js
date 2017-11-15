@@ -6,9 +6,7 @@ Create a function that looks through an array (first argument) and returns the f
 function findElement(arr, func) {
   
  var found = arr.filter(function(el) {
-    
-   return func(el);
-   
+   return func(el);  
   });
   
   return found[0];

@@ -15,10 +15,8 @@ function pairElement(str) {
   str = str;
   var pairs = [];
   
-  for (var i = 0; i < str.length; i++){
-    
-    switch (str[i]) {
-        
+  for (var i = 0; i < str.length; i++){  
+    switch (str[i]) {     
       case "A":
         pairs.push(["A","T"]);
         break;
@@ -37,9 +35,7 @@ function pairElement(str) {
         
     }
     
-  }
-  
-  
+  } 
   return pairs;
 }
 

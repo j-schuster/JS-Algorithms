@@ -12,11 +12,8 @@ Lastly, ["Alien", "line"], should return true because all of the letters in "lin
 
 
 function mutation(arr) {
- 
   return arr[1].toLowerCase().split('').every(function (el) {
-    
-    return arr[0].toLowerCase().indexOf(el) != -1;
-    
+    return arr[0].toLowerCase().indexOf(el) != -1;    
   });
  
 }
