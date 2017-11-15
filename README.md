@@ -1,0 +1,1 @@
+#This repo consists of various JavaScript algorithm problems and solutions. They can be found at Freecodecamp.org. These challenges make up a big part of the front-end curriculum and enabled me to grasp important JavaScript concepts.
